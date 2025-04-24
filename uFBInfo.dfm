@@ -2,8 +2,8 @@ object frmFBInfo: TfrmFBInfo
   Left = 0
   Top = 0
   Caption = 
-    'FBINFO2 - Identifica o banco de dados Firebird (compat'#237'vel com a' +
-    's vers'#245'es 1.x - 5.x)'
+    'FBinfo - Identifica o banco de dados Firebird (compat'#237'vel com as' +
+    ' vers'#245'es 1.x - 5.x)'
   ClientHeight = 601
   ClientWidth = 624
   Color = clBtnFace
@@ -300,9 +300,6 @@ object frmFBInfo: TfrmFBInfo
           Alignment = taCenter
           Width = 640
         end>
-      ExplicitLeft = 288
-      ExplicitTop = 96
-      ExplicitWidth = 0
     end
   end
   object Memo1: TMemo

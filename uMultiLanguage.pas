@@ -26,7 +26,7 @@ procedure ptBR();
 begin
    with frmFBInfo do
    begin
-      Caption := 'FBINFO2 - Identifica o banco de dados Firebird (compatível com as versões 1.x - 5.x)';
+      Caption := 'FBinfo - Identifica o banco de dados Firebird (compatível com as versões 1.x - 5.x)';
       btnBrowse.Caption := '&Procurar';
       btnCancel.Caption := '&Cancelar';
 
@@ -57,7 +57,7 @@ procedure en();
 begin
    With frmFBInfo do
    begin
-      Caption := 'FBINFO2 - Identifies the Firebird database (compatible with versions 1.x - 5.x)';
+      Caption := 'FBinfo - Identifies the Firebird database (compatible with versions 1.x - 5.x)';
       btnBrowse.Caption := '&Browse';
       btnCancel.Caption := '&Cancel';
 
