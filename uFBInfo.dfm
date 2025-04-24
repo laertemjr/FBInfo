@@ -866,7 +866,7 @@ object frmFBInfo: TfrmFBInfo
     Top = 24
   end
   object FDPhysFBDriverLink1: TFDPhysFBDriverLink
-    Left = 336
+    Left = 344
     Top = 24
   end
   object FDGUIxWaitCursor1: TFDGUIxWaitCursor
