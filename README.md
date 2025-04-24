@@ -18,16 +18,6 @@ Identifica bancos de dados **Firebird** entre as versões 1.x - 5.x / *Identifie
 * [![Delphi](https://img.shields.io/badge/-Delphi-E62431?logo=delphi&logoColor=white&style=plastic)](https://www.embarcadero.com/products/delphi) 12.1 Athens
 
 
-### 📌 Versão 0.3 - 02/02/2025 / *Version 0.3 - 02/02/2025*
-
-* Novidades: suporte multi-idiomas: português do Brasil e Inglês.
-* *News: Multi-language support: Brazilian Portuguese and English.*
-
-
-### :hourglass_flowing_sand: Histórico das versões antigas / *Old versions timeline*
-* *[Old versions timeline](https://github.com/laertemjr/FBinfo/tree/main/READMEold.md)*
-
-
 ### 📄 Licença / *License*
 
 * Este projeto está sob a licença *The Unlicense* - veja o arquivo [LICENSE.md](https://github.com/laertemjr/FBinfo/blob/main/LICENSE.md) para detalhes.
