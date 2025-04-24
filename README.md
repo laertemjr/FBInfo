@@ -1,6 +1,6 @@
 # FBinfo 
 
-Identifica bancos de dados **Firebird** entre as versões 1.x - 4.x / *Identifies **Firebird** databases between versions 1.x - 4.x*
+Identifica bancos de dados **Firebird** entre as versões 1.x - 5.x / *Identifies **Firebird** databases between versions 1.x - 5.x*
 <br/>
 <br/>
 ### 🖥️ Pré-requisitos / *System requirements*
