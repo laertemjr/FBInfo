@@ -1,0 +1,29 @@
+
+Database "D:\ONEDRIVE\DOCUMENTOS\TECH\PROGRAMACAO\DELPHI\FIREBIRD\BANCOS_DE_TESTES\BD_TESTE_FB50.FDB"
+Gstat execution time Thu Apr 24 16:55:46 2025
+
+Database header page information:
+	Flags			0
+	Generation		239
+	System Change Number	0
+	Page size		32768
+	ODS version		13.1
+	Oldest transaction	140
+	Oldest active		141
+	Oldest snapshot		141
+	Next transaction	141
+	Sequence number		0
+	Next attachment ID	486
+	Implementation		HW=AMD/Intel/x64 little-endian OS=Windows CC=MSVC
+	Shadow count		0
+	Page buffers		0
+	Next header page	0
+	Database dialect	3
+	Creation date		Jan 5, 2025 23:14:54
+	Attributes		force write
+
+    Variable header data:
+	Database GUID:	{9217CC31-1797-4A4D-B0A3-18AAFC163610}
+	*END*
+Gstat completion time Thu Apr 24 16:55:46 2025
+
