@@ -13,11 +13,6 @@ Identifica bancos de dados **Firebird** entre as versões 1.x - 5.x / *Identifie
    * Servidor Firebird 1.5 identifica bancos de dados Firebird 1.5 e 1.0 / *Firebird 1.5 Server identifies Firebird 1.5 and 1.0 Firebird databases.*
     
 
-### 🔎 Testando o programa / *Testing the program*
-
-* Para testar o programa (portátil), basta fazer o download do arquivo executável, acessível a partir da pasta [Win32/Debug](https://github.com/laertemjr/FBinfo/tree/main/Win32/Debug) deste repositório.
-* *To test the program (portable), simply download the executable file, accessible from the [Win32/Debug](https://github.com/laertemjr/FBinfo/tree/main/Win32/Debug) folder of this repository.*
-
 ### 🛠️ Construído com / *Built with*
 
 * [![Delphi](https://img.shields.io/badge/-Delphi-E62431?logo=delphi&logoColor=white&style=plastic)](https://www.embarcadero.com/products/delphi) 12.1 Athens
