@@ -875,7 +875,7 @@ object frmFBInfo: TfrmFBInfo
     Top = 24
   end
   object FDIBInfo1: TFDIBInfo
-    Left = 304
+    Left = 296
     Top = 184
   end
 end
