@@ -1,4 +1,4 @@
-unit uMultiLanguage;
+Ôªøunit uMultiLanguage;
 
 interface
 
@@ -26,7 +26,7 @@ procedure ptBR();
 begin
    with frmFBInfo do
    begin
-      Caption := 'FBinfo - Identifica o banco de dados Firebird (compatÌvel com as versıes 1.x - 5.x)';
+      Caption := 'FBinfo - Identifica o banco de dados Firebird (compat√≠vel com as vers√µes 1.x - 5.x)';
       btnBrowse.Caption := '&Procurar';
       btnCancel.Caption := '&Cancelar';
 
@@ -37,18 +37,18 @@ begin
 
       Label6.Caption := 'Selecione o banco de dados Firebird :';
       Label1.Caption := 'Banco de dados: ';
-      Label2.Caption := 'Vers„o do servidor Firebird que o banco de dados est· conectado :';
-      Label3.Caption := 'Vers„o ODS do banco de dados :';
-      Label4.Caption := 'Vers„o do banco de dados Firebird :';
-      Label5.Caption := 'Outras informaÁıes :';
-      Label8.Caption := 'ConfiguraÁ„o das portas dos servidores Firebird :';
-      StatusBar1.Panels[0].Text := 'Vers„o ' + GetVersionInfo(Application.ExeName) + ' (2025) Delphi 12.1';
+      Label2.Caption := 'Vers√£o do servidor Firebird que o banco de dados est√° conectado :';
+      Label3.Caption := 'Vers√£o ODS do banco de dados :';
+      Label4.Caption := 'Vers√£o do banco de dados Firebird :';
+      Label5.Caption := 'Outras informa√ß√µes :';
+      Label8.Caption := 'Configura√ß√£o das portas dos servidores Firebird :';
+      StatusBar1.Panels[0].Text := 'Vers√£o ' + GetVersionInfo(Application.ExeName) + ' (2025) Delphi 12.1';
       OpenDialog1.Filter := 'Bancos de dados Firebird|*.GDB;*.FDB;';
    end;
 
-   strngs[0] := 'N„o È um banco de dados Firebird.';
-   strngs[1] := 'Firebird vers„o desconhecida.';
-   strngs[2] := 'N„o foi possÌvel a conex„o com o banco de dados';
+   strngs[0] := 'N√£o √© um banco de dados Firebird.';
+   strngs[1] := 'Firebird vers√£o desconhecida.';
+   strngs[2] := 'N√£o foi poss√≠vel a conex√£o com o banco de dados';
    strngs[3] := '&Gravar';
    strngs[4] := '&Alterar';
 end;

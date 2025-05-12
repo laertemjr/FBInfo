@@ -1,4 +1,4 @@
-unit uFBInfo;
+ï»¿unit uFBInfo;
 
 interface
 
@@ -91,10 +91,10 @@ uses
 {$R *.dfm}
 
 { Suggested port configuration for Firebird servers:
-•	Firebird 5.0 server: port 3055, compatible with version 4.0
-•	Firebird 3.0 server: port 3030
-•	Firebird 2.5 server: port 3025, compatible with versions 2.1, 2.0
-•	Firebird 1.5 server: port 3015, compatible with the version 1.0
+ï¿½	Firebird 5.0 server: port 3055, compatible with version 4.0
+ï¿½	Firebird 3.0 server: port 3030
+ï¿½	Firebird 2.5 server: port 3025, compatible with versions 2.1, 2.0
+ï¿½	Firebird 1.5 server: port 3015, compatible with the version 1.0
 }
 
 procedure TfrmFBInfo.FormActivate(Sender: TObject);
@@ -168,11 +168,11 @@ begin
          {ShellExecute(0, nil, 'cmd.exe', PChar('/C ' + pathExe + ' -h -user SYSDBA -pass masterkey '
           + pathBD + ' > C:\Users\usuario\out.txt'), PChar(pathExe), SW_HIDE);}
          try
-            parametros := PChar('/C ' + pathExe + ' -h -user SYSDBA -pass masterkey ' + pathBD + ' > ' + pathTXT);
+            parametros :=PChar('/C ' + pathExe + ' -h -user SYSDBA -pass masterkey ' + pathBD + ' > ' + pathTXT);
             j := ShellExecuteAndWait(0, '', 'cmd.exe', parametros, PChar(pathExe), SW_HIDE, True);
          except
             on E:Exception do
-            // Log('Error: '+E.Message);
+            //Log('Error: '+E.Message);
          end;
 
          Memo1.Lines.LoadFromFile(pathTXT);
@@ -231,7 +231,7 @@ begin
    FDConnection1.DriverName := 'FB';
    // DriverID
    FDConnection1.Params.Add('DriverID=FB');
-   // Usuário
+   // Usuï¿½rio
    FDConnection1.Params.Add('User_Name=SYSDBA');
    // PassWord
    FDConnection1.Params.Add('Password=masterkey');
