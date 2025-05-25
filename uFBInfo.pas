@@ -7,11 +7,13 @@ uses
    Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls,
    Data.DB, StrUtils, Vcl.ExtCtrls, System.IniFiles,
    System.ImageList, Vcl.ImgList, Vcl.Buttons, FireDAC.Stan.Intf,
-   FireDAC.Stan.Option, FireDAC.Stan.Error, FireDAC.UI.Intf, FireDAC.Phys.Intf,
-   FireDAC.Stan.Def, FireDAC.Stan.Pool, FireDAC.Stan.Async, FireDAC.Phys,
-   FireDAC.Phys.FBDef, FireDAC.VCLUI.Wait, FireDAC.Comp.UI, FireDAC.Phys.IBBase,
-   FireDAC.Phys.FB, FireDAC.Comp.Client, FireDAC.Phys.IBWrapper, Winapi.ShellAPI,
-   Vcl.ComCtrls;
+
+   FireDAC.Phys,
+   FireDAC.Comp.UI, FireDAC.Phys.IBBase,
+   FireDAC.Phys.FB, FireDAC.Comp.Client, FireDAC.Phys.IBWrapper,
+   Vcl.ComCtrls, FireDAC.Stan.Option, FireDAC.Stan.Error, FireDAC.UI.Intf,
+  FireDAC.Phys.Intf, FireDAC.Stan.Def, FireDAC.Stan.Pool, FireDAC.Stan.Async,
+  FireDAC.Phys.FBDef, FireDAC.VCLUI.Wait;
 
 type
    TfrmFBInfo = class(TForm)
