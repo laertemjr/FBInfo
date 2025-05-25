@@ -20,7 +20,7 @@ uses
 implementation
 
 uses
-   uFBInfo;
+   uFBInfo, uGlobal;
 
 procedure ptBR();
 begin
